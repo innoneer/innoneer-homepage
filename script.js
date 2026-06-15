@@ -7,43 +7,48 @@ const dictionaries = {
     nav: {
       about: "關於",
       services: "服務",
+      technology: "技術",
       talents: "藝人",
       projects: "實績",
-      news: "消息",
+      news: "展望",
       contact: "聯絡"
     },
     hero: {
-      kicker: "虛擬藝人運營及製作",
-      subtitle: "香港一站式虛擬藝人製作及運營平台。",
-      primary: "旗下藝人",
-      secondary: "服務內容",
-      statement: "創造沉浸式互動體驗，讓虛擬世界與現實世界趨近零距離。"
+      kicker: "虛擬 IP 孵化・虛擬製作・AI 內容生產",
+      subtitle: "以香港為基地，將虛擬藝人、實時製作、線上直播與線下活動整合成可商業化的數碼娛樂生態。",
+      primary: "查看案例",
+      secondary: "技術能力",
+      statement: "重新定義虛擬與現實的深度互動，讓內容、技術與商業轉化同步落地。"
     },
     about: {
       label: "ABOUT",
       title: "關於 innoneer",
       body1:
-        "香港虛擬藝人製作及運營平台 innoneer 成立於 2023 年 2 月，目標是成為香港市場內具競爭力的虛擬藝人平台。",
+        "innoneer.TV 於 2023 年 2 月推出，是立足香港、連接大灣區與全球受眾的一站式虛擬藝人製作及運營平台。",
       body2:
-        "innoneer 致力投入並活用虛擬製作技術，讓虛擬藝人能在舞台上活靈活現；同時拓展 IP 營運，透過授權、品牌合作及商業化策略，提升虛擬藝人的市場影響力與商業價值。"
+        "平台提供從虛擬形象設計、內容企劃、直播營運、實時製作到商業變現的全鏈路支援，協助 IP 在舞台、社群、品牌合作與商品銷售之間形成可持續閉環。"
     },
     goals: [
       {
         no: "01",
-        text: "探索虛擬與現實的無限可能性"
+        text: "重新定義虛擬與現實的深度互動"
       },
       {
         no: "02",
-        text: "締造新時代的娛樂互動體驗"
+        text: "構建沉浸式數碼內容生態"
       },
       {
         no: "03",
-        text: "打造虛擬主播、藝人垂直賽道"
+        text: "把虛擬 IP 轉化為可持續商業閉環"
       }
     ],
     services: {
       label: "SERVICES",
       title: "服務內容"
+    },
+    technology: {
+      label: "TECHNOLOGY",
+      title: "技術能力"
     },
     talents: {
       label: "TALENT",
@@ -54,8 +59,8 @@ const dictionaries = {
       title: "專案實績"
     },
     news: {
-      label: "NEWS",
-      title: "社群消息",
+      label: "OUTLOOK",
+      title: "產業展望",
       more: "追蹤 Instagram"
     },
     contact: {
@@ -63,40 +68,74 @@ const dictionaries = {
       title: "一起打造下一個虛擬舞台。"
     },
     footer: {
-      tagline: "創造多元體驗，直指業界先驅。"
+      tagline: "以虛擬製作和 IP 運營，創造可持續的數碼娛樂體驗。"
     },
     marqueeTop: [
-      "一站式虛擬藝人製作及運營平台",
-      "Virtual Artist Management",
-      "Hong Kong VTuber Production"
+      "虛擬 IP 全鏈路孵化",
+      "AI-enabled Content Production",
+      "Hong Kong Virtual Production"
     ],
     marqueeMiddle: [
-      "Offline Event",
-      "Online Live Streaming Technical Support",
-      "Merchandiser",
-      "Broker Service",
-      "Live 2D / 3D Character Design"
+      "UE5 Real-time Rendering",
+      "Motion Capture",
+      "Live 2D / 3D Character Design",
+      "Offline Event Production",
+      "IP Commerce"
     ],
     serviceItems: [
       {
-        title: "線下活動",
-        body: "支援線下見面會、演唱會及聯名合作店鋪，透過視訊媒介、實時動作及聲音交互，讓虛擬藝人打破虛擬與現實的界限。"
+        title: "虛擬製作與 CG/VFX",
+        body: "結合 UE5 實時渲染、MR 混合實景、ICVFX 及分鏡直播流程，讓虛擬場景、角色與真人拍攝自然銜接。"
       },
       {
-        title: "線上直播技術支援",
-        body: "採用 OBS、vMix 等直播串流軟件，提供直播串流、視訊、聲效及後端技術設置，呈現穩定而高品質的內容。"
+        title: "AI 全流程內容生產",
+        body: "以 AI 大模型、私有化知識庫及工作流支援企劃、資料處理、項目管理與多語內容適配，縮短製作週期。"
       },
       {
-        title: "周邊商品設計",
-        body: "由設計師及美術人員負責角色原創衍生產品，提供設計、生產、物流與款式更新的一條龍服務。"
+        title: "線上直播與 3D 演唱會",
+        body: "提供 OBS、vMix、實時動捕、鏡頭調度、音視訊及串流技術，支援高品質直播、生日 Live 與虛擬演出。"
       },
       {
-        title: "經紀管理",
-        body: "拓展虛擬藝人 IP 營運，結合授權、品牌合作及商業化策略，推動藝人與市場接軌。"
+        title: "線下活動製作",
+        body: "承接見面會、展會、演唱會、品牌快閃及大型活動，透過視訊、LED、聲音與互動流程打通線上流量與現場體驗。"
       },
       {
-        title: "Live 2D / 3D 形象設計",
-        body: "從角色形象到直播應用，支援二維與三維虛擬形象設計，建立可延展的數碼娛樂產品。"
+        title: "虛擬 IP 孵化與營運",
+        body: "從 Live 2D / 3D 形象設計、人設建構、內容企劃到社群運營，建立能長期成長的虛擬藝人與品牌 IP。"
+      },
+      {
+        title: "商業變現與品牌合作",
+        body: "打通授權、代言、聯名商品、直播帶貨與線下共創，讓虛擬 IP 從內容影響力走向可量化商業價值。"
+      }
+    ],
+    technologyItems: [
+      {
+        tag: "Production",
+        title: "實時虛擬製作管線",
+        body: "以實時渲染、光學動捕、虛擬場景與分鏡系統支撐演唱會、直播、MV 和商業影像，降低後期成本並提升現場可控性。",
+        image: "assets/img/tech-motion-capture.jpeg",
+        alt: "Motion capture production stage"
+      },
+      {
+        tag: "AI Workflow",
+        title: "AI 輔助內容工程",
+        body: "把生成式 AI、資料庫與項目流程整合到企劃、腳本、翻譯、素材整理與跨文化溝通，讓團隊更快交付多語內容。",
+        image: "assets/img/tech-ai-content-engineering.png",
+        alt: "AI-assisted content production workflow interface"
+      },
+      {
+        tag: "IP Commerce",
+        title: "虛擬主播帶貨場景",
+        body: "支援可控形象、全天候直播、多維產品展示與高峰期分身擴容，為品牌建立更穩定的內容轉化入口。",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        tag: "Future Events",
+        title: "虛擬電競與沉浸賽事",
+        body: "將真人動捕、實時數據、AR 地標和虛擬角色結合，延伸到水上競速、賽車競速及全球同步觀賽等新型活動。",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     talentItems: [
@@ -132,66 +171,80 @@ const dictionaries = {
     ],
     projectItems: [
       {
-        category: "Offline Event",
-        title: "HKSP 01",
-        body: "虛擬藝人舞台及跨角色演出支援。",
-        image: "assets/img/project-hksp.png",
-        alt: "HKSP 01 virtual artist projection stage"
-      },
-      {
         category: "Online Live",
-        title: "小林冰 3D 生日紀念 Live 2024",
-        body: "實時 3D 線上直播、分鏡畫面及串流技術支援。",
+        title: "小林冰 Aisu 3D 生日紀念 Live 2024",
+        body: "運用實時渲染、動捕與鏡頭調度打造沉浸式線上演唱會，支援造型切換、場景互動與穩定串流。",
         image: "assets/img/project-3d-live.png",
         alt: "Kobayashi Aisu 3D birthday live scene"
       },
       {
-        category: "Merchandise",
-        title: "周邊商品展示",
-        body: "角色衍生產品、展會陳列與銷售支援。",
+        category: "Brand Collab",
+        title: "Aisu 線下活動與品牌聯名",
+        body: "結合粉絲見面會、茶飲店聯名、動漫展會與周邊產品，把線上社群熱度轉化為線下互動和銷售。",
         image: "assets/img/project-merch.png",
         alt: "Aisu merchandise booth display"
       },
       {
-        category: "Collaboration",
-        title: "深圳漫畫節",
-        body: "線下活動及展會互動場景。",
-        image: "assets/img/project-shenzhen.jpeg",
-        alt: "Shenzhen comic festival collaboration display"
+        category: "International IP",
+        title: "Hololive Party2Gather 香港聯動",
+        body: "為國際虛擬藝人活動提供技術支援、活動執行、LED 及音視訊服務，實現藝人與香港粉絲即時互動。",
+        image: "assets/img/news-party2gather.webp",
+        alt: "Hololive Party2Gather Hong Kong collaboration visual"
       },
       {
-        category: "Exhibition",
-        title: "香港鬼滅之刃全集中展",
-        body: "展覽合作與虛擬藝人現場互動。",
-        image: "assets/img/project-demon-slayer.png",
-        alt: "Demon Slayer Hong Kong exhibition with virtual artist"
+        category: "Convention",
+        title: "LNAF 2023 虛擬主播區",
+        body: "作為大型動漫節技術協力單位，支援日本及本土虛擬藝人登台演出，提升活動科技感與觀眾參與度。",
+        image: "assets/img/about-crowd.png",
+        alt: "Audience interacting with a virtual artist event"
       },
       {
-        category: "Goods",
-        title: "小林冰生日紀念香港 SET 2024",
-        body: "紀念商品套裝視覺及展示內容。",
-        image: "assets/img/project-birthday-set.png",
-        alt: "Aisu birthday merchandise set"
+        category: "Virtual Production",
+        title: "虛擬製作與 CG/VFX",
+        body: "應用 ICVFX、MR 與虛擬場景製作 MV、商業影像及教育課程，讓拍攝、特效與培訓流程更高效。",
+        image: "assets/img/tech-virtual-production.png",
+        alt: "Virtual production behind the scenes"
+      },
+      {
+        category: "Event Production",
+        title: "大型活動製作",
+        body: "支援高峰論壇、動漫節、文化晚宴、周年慶典與音樂節，從舞台視覺到現場執行建立完整活動體驗。",
+        image: "assets/img/project-large-event.jpeg",
+        alt: "Large anime festival group event"
+      },
+      {
+        category: "Commerce",
+        title: "虛擬直播帶貨概念",
+        body: "以虛擬主播、商品展示、優惠機制和即時互動建立可複製的直播電商場景。",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        category: "Future Scenario",
+        title: "虛擬電競賽事概念",
+        body: "把虛擬角色、數據視覺化和實時渲染導入賽車及水上競速，拓展線上同步觀賽和沉浸式活動形式。",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     newsItems: [
       {
-        tag: "Party2Gather",
-        title: "Hololive English 官方香港聯乘活動完滿結束",
+        tag: "Market",
+        title: "全球虛擬主播市場進入高速增長期",
         body:
-          "innoneer 受邀負責活動技術支援，提供視訊、聲音及 LED 屏幕出租服務，為現場觀眾帶來更好的觀賞體驗。"
+          "虛擬藝人內容正在從遊戲直播、音樂直播和聊天互動延伸到品牌代言、直播帶貨、客服和虛擬員工，商業場景持續擴張。"
       },
       {
-        tag: "Announcement",
-        title: "製作服務成為公司核心",
+        tag: "Greater Bay Area",
+        title: "大灣區是虛擬內容產業的重要樞紐",
         body:
-          "innoneer 將持續聚焦於製作服務，並期待在虛擬藝人及跨媒體內容上帶來更多突破。"
+          "香港連接中國內地與全球市場，結合動漫遊戲 IP、創意人才、技術資源與政策紅利，具備推動虛實融合內容出海的基礎。"
       },
       {
-        tag: "Community",
-        title: "跟蹤我們的 Instagram 以獲得最新資訊",
+        tag: "Co-create",
+        title: "開放合作模式推動 IP 長期成長",
         body:
-          "社群消息、合作活動、商品補貨及直播資訊將於官方社群平台持續更新。"
+          "合作可涵蓋 IP 全案技術賦能、虛擬藝人聯合孵化、線下活動共創和長期戰略伙伴關係，共同建設數碼內容新生態。"
       }
     ]
   },
@@ -203,43 +256,48 @@ const dictionaries = {
     nav: {
       about: "关于",
       services: "服务",
+      technology: "技术",
       talents: "艺人",
       projects: "实绩",
-      news: "消息",
+      news: "展望",
       contact: "联系"
     },
     hero: {
-      kicker: "虚拟艺人运营及制作",
-      subtitle: "香港一站式虚拟艺人制作及运营平台。",
-      primary: "旗下艺人",
-      secondary: "服务内容",
-      statement: "创造沉浸式互动体验，让虚拟世界与现实世界趋近零距离。"
+      kicker: "虚拟 IP 孵化・虚拟制作・AI 内容生产",
+      subtitle: "以香港为基地，将虚拟艺人、实时制作、线上直播与线下活动整合成可商业化的数字娱乐生态。",
+      primary: "查看案例",
+      secondary: "技术能力",
+      statement: "重新定义虚拟与现实的深度互动，让内容、技术与商业转化同步落地。"
     },
     about: {
       label: "ABOUT",
       title: "关于 innoneer",
       body1:
-        "香港虚拟艺人制作及运营平台 innoneer 成立于 2023 年 2 月，目标是成为香港市场内具竞争力的虚拟艺人平台。",
+        "innoneer.TV 于 2023 年 2 月推出，是立足香港、连接大湾区与全球受众的一站式虚拟艺人制作及运营平台。",
       body2:
-        "innoneer 致力投入并活用虚拟制作技术，让虚拟艺人能在舞台上活灵活现；同时拓展 IP 运营，通过授权、品牌合作及商业化策略，提升虚拟艺人的市场影响力与商业价值。"
+        "平台提供从虚拟形象设计、内容企划、直播运营、实时制作到商业变现的全链路支持，协助 IP 在舞台、社群、品牌合作与商品销售之间形成可持续闭环。"
     },
     goals: [
       {
         no: "01",
-        text: "探索虚拟与现实的无限可能性"
+        text: "重新定义虚拟与现实的深度互动"
       },
       {
         no: "02",
-        text: "缔造新时代的娱乐互动体验"
+        text: "构建沉浸式数字内容生态"
       },
       {
         no: "03",
-        text: "打造虚拟主播、艺人垂直赛道"
+        text: "把虚拟 IP 转化为可持续商业闭环"
       }
     ],
     services: {
       label: "SERVICES",
       title: "服务内容"
+    },
+    technology: {
+      label: "TECHNOLOGY",
+      title: "技术能力"
     },
     talents: {
       label: "TALENT",
@@ -250,8 +308,8 @@ const dictionaries = {
       title: "项目实绩"
     },
     news: {
-      label: "NEWS",
-      title: "社群消息",
+      label: "OUTLOOK",
+      title: "产业展望",
       more: "关注 Instagram"
     },
     contact: {
@@ -259,40 +317,74 @@ const dictionaries = {
       title: "一起打造下一个虚拟舞台。"
     },
     footer: {
-      tagline: "创造多元体验，直指业界先驱。"
+      tagline: "以虚拟制作和 IP 运营，创造可持续的数字娱乐体验。"
     },
     marqueeTop: [
-      "一站式虚拟艺人制作及运营平台",
-      "Virtual Artist Management",
-      "Hong Kong VTuber Production"
+      "虚拟 IP 全链路孵化",
+      "AI-enabled Content Production",
+      "Hong Kong Virtual Production"
     ],
     marqueeMiddle: [
-      "Offline Event",
-      "Online Live Streaming Technical Support",
-      "Merchandiser",
-      "Broker Service",
-      "Live 2D / 3D Character Design"
+      "UE5 Real-time Rendering",
+      "Motion Capture",
+      "Live 2D / 3D Character Design",
+      "Offline Event Production",
+      "IP Commerce"
     ],
     serviceItems: [
       {
-        title: "线下活动",
-        body: "支持线下见面会、演唱会及联名合作店铺，通过视频媒介、实时动作及声音交互，让虚拟艺人打破虚拟与现实的界限。"
+        title: "虚拟制作与 CG/VFX",
+        body: "结合 UE5 实时渲染、MR 混合实景、ICVFX 及分镜直播流程，让虚拟场景、角色与真人拍摄自然衔接。"
       },
       {
-        title: "线上直播技术支持",
-        body: "采用 OBS、vMix 等直播串流软件，提供直播串流、视频、声效及后端技术设置，呈现稳定而高品质的内容。"
+        title: "AI 全流程内容生产",
+        body: "以 AI 大模型、私有化知识库及工作流支持企划、数据处理、项目管理与多语内容适配，缩短制作周期。"
       },
       {
-        title: "周边商品设计",
-        body: "由设计师及美术人员负责角色原创衍生产品，提供设计、生产、物流与款式更新的一站式服务。"
+        title: "线上直播与 3D 演唱会",
+        body: "提供 OBS、vMix、实时动捕、镜头调度、音视频及串流技术，支持高品质直播、生日 Live 与虚拟演出。"
       },
       {
-        title: "经纪管理",
-        body: "拓展虚拟艺人 IP 运营，结合授权、品牌合作及商业化策略，推动艺人与市场接轨。"
+        title: "线下活动制作",
+        body: "承接见面会、展会、演唱会、品牌快闪及大型活动，通过视频、LED、声音与互动流程打通线上流量与现场体验。"
       },
       {
-        title: "Live 2D / 3D 形象设计",
-        body: "从角色形象到直播应用，支持二维与三维虚拟形象设计，建立可延展的数字娱乐产品。"
+        title: "虚拟 IP 孵化与运营",
+        body: "从 Live 2D / 3D 形象设计、人设构建、内容企划到社群运营，建立能长期成长的虚拟艺人与品牌 IP。"
+      },
+      {
+        title: "商业变现与品牌合作",
+        body: "打通授权、代言、联名商品、直播带货与线下共创，让虚拟 IP 从内容影响力走向可量化商业价值。"
+      }
+    ],
+    technologyItems: [
+      {
+        tag: "Production",
+        title: "实时虚拟制作管线",
+        body: "以实时渲染、光学动捕、虚拟场景与分镜系统支撑演唱会、直播、MV 和商业影像，降低后期成本并提升现场可控性。",
+        image: "assets/img/tech-motion-capture.jpeg",
+        alt: "Motion capture production stage"
+      },
+      {
+        tag: "AI Workflow",
+        title: "AI 辅助内容工程",
+        body: "把生成式 AI、数据库与项目流程整合到企划、脚本、翻译、素材整理与跨文化沟通，让团队更快交付多语内容。",
+        image: "assets/img/tech-ai-content-engineering.png",
+        alt: "AI-assisted content production workflow interface"
+      },
+      {
+        tag: "IP Commerce",
+        title: "虚拟主播带货场景",
+        body: "支持可控形象、全天候直播、多维产品展示与高峰期分身扩容，为品牌建立更稳定的内容转化入口。",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        tag: "Future Events",
+        title: "虚拟电竞与沉浸赛事",
+        body: "将真人动捕、实时数据、AR 地标和虚拟角色结合，延伸到水上竞速、赛车竞速及全球同步观赛等新型活动。",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     talentItems: [
@@ -328,66 +420,80 @@ const dictionaries = {
     ],
     projectItems: [
       {
-        category: "Offline Event",
-        title: "HKSP 01",
-        body: "虚拟艺人舞台及跨角色演出支持。",
-        image: "assets/img/project-hksp.png",
-        alt: "HKSP 01 virtual artist projection stage"
-      },
-      {
         category: "Online Live",
-        title: "小林冰 3D 生日纪念 Live 2024",
-        body: "实时 3D 线上直播、分镜画面及串流技术支持。",
+        title: "小林冰 Aisu 3D 生日纪念 Live 2024",
+        body: "运用实时渲染、动捕与镜头调度打造沉浸式线上演唱会，支持造型切换、场景互动与稳定串流。",
         image: "assets/img/project-3d-live.png",
         alt: "Kobayashi Aisu 3D birthday live scene"
       },
       {
-        category: "Merchandise",
-        title: "周边商品展示",
-        body: "角色衍生产品、展会陈列与销售支持。",
+        category: "Brand Collab",
+        title: "Aisu 线下活动与品牌联名",
+        body: "结合粉丝见面会、茶饮店联名、动漫展会与周边产品，把线上社群热度转化为线下互动和销售。",
         image: "assets/img/project-merch.png",
         alt: "Aisu merchandise booth display"
       },
       {
-        category: "Collaboration",
-        title: "深圳漫画节",
-        body: "线下活动及展会互动场景。",
-        image: "assets/img/project-shenzhen.jpeg",
-        alt: "Shenzhen comic festival collaboration display"
+        category: "International IP",
+        title: "Hololive Party2Gather 香港联动",
+        body: "为国际虚拟艺人活动提供技术支持、活动执行、LED 及音视频服务，实现艺人与香港粉丝即时互动。",
+        image: "assets/img/news-party2gather.webp",
+        alt: "Hololive Party2Gather Hong Kong collaboration visual"
       },
       {
-        category: "Exhibition",
-        title: "香港鬼灭之刃全集中展",
-        body: "展览合作与虚拟艺人现场互动。",
-        image: "assets/img/project-demon-slayer.png",
-        alt: "Demon Slayer Hong Kong exhibition with virtual artist"
+        category: "Convention",
+        title: "LNAF 2023 虚拟主播区",
+        body: "作为大型动漫节技术协力单位，支持日本及本土虚拟艺人登台演出，提升活动科技感与观众参与度。",
+        image: "assets/img/about-crowd.png",
+        alt: "Audience interacting with a virtual artist event"
       },
       {
-        category: "Goods",
-        title: "小林冰生日纪念香港 SET 2024",
-        body: "纪念商品套装视觉及展示内容。",
-        image: "assets/img/project-birthday-set.png",
-        alt: "Aisu birthday merchandise set"
+        category: "Virtual Production",
+        title: "虚拟制作与 CG/VFX",
+        body: "应用 ICVFX、MR 与虚拟场景制作 MV、商业影像及教育课程，让拍摄、特效与培训流程更高效。",
+        image: "assets/img/tech-virtual-production.png",
+        alt: "Virtual production behind the scenes"
+      },
+      {
+        category: "Event Production",
+        title: "大型活动制作",
+        body: "支持高峰论坛、动漫节、文化晚宴、周年庆典与音乐节，从舞台视觉到现场执行建立完整活动体验。",
+        image: "assets/img/project-large-event.jpeg",
+        alt: "Large anime festival group event"
+      },
+      {
+        category: "Commerce",
+        title: "虚拟直播带货概念",
+        body: "以虚拟主播、商品展示、优惠机制和即时互动建立可复制的直播电商场景。",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        category: "Future Scenario",
+        title: "虚拟电竞赛事概念",
+        body: "把虚拟角色、数据可视化和实时渲染导入赛车及水上竞速，拓展线上同步观赛和沉浸式活动形式。",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     newsItems: [
       {
-        tag: "Party2Gather",
-        title: "Hololive English 官方香港联乘活动圆满结束",
+        tag: "Market",
+        title: "全球虚拟主播市场进入高速增长期",
         body:
-          "innoneer 受邀负责活动技术支持，提供视频、声音及 LED 屏幕租赁服务，为现场观众带来更好的观赏体验。"
+          "虚拟艺人内容正在从游戏直播、音乐直播和聊天互动延伸到品牌代言、直播带货、客服和虚拟员工，商业场景持续扩张。"
       },
       {
-        tag: "Announcement",
-        title: "制作服务成为公司核心",
+        tag: "Greater Bay Area",
+        title: "大湾区是虚拟内容产业的重要枢纽",
         body:
-          "innoneer 将持续聚焦于制作服务，并期待在虚拟艺人及跨媒体内容上带来更多突破。"
+          "香港连接中国内地与全球市场，结合动漫游戏 IP、创意人才、技术资源与政策红利，具备推动虚实融合内容出海的基础。"
       },
       {
-        tag: "Community",
-        title: "关注我们的 Instagram 获取最新资讯",
+        tag: "Co-create",
+        title: "开放合作模式推动 IP 长期成长",
         body:
-          "社群消息、合作活动、商品补货及直播资讯将于官方社群平台持续更新。"
+          "合作可涵盖 IP 全案技术赋能、虚拟艺人联合孵化、线下活动共创和长期战略伙伴关系，共同建设数字内容新生态。"
       }
     ]
   },
@@ -399,43 +505,48 @@ const dictionaries = {
     nav: {
       about: "About",
       services: "Services",
+      technology: "Technology",
       talents: "Talent",
       projects: "Works",
-      news: "News",
+      news: "Outlook",
       contact: "Contact"
     },
     hero: {
-      kicker: "Virtual Artist Management and Production",
-      subtitle: "A one-stop virtual artist production and operation platform in Hong Kong.",
-      primary: "Meet the talents",
-      secondary: "Explore services",
-      statement: "Creating immersive interaction where virtual worlds and reality move closer together."
+      kicker: "Virtual IP Incubation / Virtual Production / AI Content",
+      subtitle: "A Hong Kong-based platform connecting virtual artists, real-time production, online livestreams, and offline events into a commercial digital entertainment ecosystem.",
+      primary: "View cases",
+      secondary: "Technology stack",
+      statement: "Redefining deep interaction between virtual and real, so content, technology, and commercial conversion move together."
     },
     about: {
       label: "ABOUT",
       title: "About innoneer",
       body1:
-        "innoneer is a Hong Kong virtual artist production and operation platform founded in February 2023, built to become a competitive virtual artist platform in the local market.",
+        "innoneer.TV launched in February 2023 as a Hong Kong-based one-stop virtual artist production and operation platform connected to Greater Bay Area and global audiences.",
       body2:
-        "The team invests in virtual production technology to bring virtual artists vividly onto the stage, while expanding IP operations through licensing, brand collaborations, and commercialization strategies."
+        "The platform supports the full IP lifecycle: character design, content planning, livestream operation, real-time production, and monetization across stage events, communities, brand collaborations, and merchandise."
     },
     goals: [
       {
         no: "01",
-        text: "Explore the unlimited possibilities between virtual and real"
+        text: "Redefine deep interaction between virtual and real"
       },
       {
         no: "02",
-        text: "Create a new era of entertainment interaction"
+        text: "Build immersive digital content ecosystems"
       },
       {
         no: "03",
-        text: "Build dedicated tracks for virtual streamers and artists"
+        text: "Convert virtual IP into sustainable business loops"
       }
     ],
     services: {
       label: "SERVICES",
       title: "Our services"
+    },
+    technology: {
+      label: "TECHNOLOGY",
+      title: "Technology stack"
     },
     talents: {
       label: "TALENT",
@@ -446,8 +557,8 @@ const dictionaries = {
       title: "Project references"
     },
     news: {
-      label: "NEWS",
-      title: "Community updates",
+      label: "OUTLOOK",
+      title: "Industry outlook",
       more: "Follow Instagram"
     },
     contact: {
@@ -455,45 +566,84 @@ const dictionaries = {
       title: "Build the next virtual stage."
     },
     footer: {
-      tagline: "Create diverse experiences. Lead the industry forward."
+      tagline: "Virtual production and IP operation for sustainable digital entertainment."
     },
     marqueeTop: [
-      "One-stop virtual artist production and operation platform",
-      "Virtual Artist Management",
-      "Hong Kong VTuber Production"
+      "Full-cycle virtual IP incubation",
+      "AI-enabled Content Production",
+      "Hong Kong Virtual Production"
     ],
     marqueeMiddle: [
-      "Offline Event",
-      "Online Live Streaming Technical Support",
-      "Merchandiser",
-      "Broker Service",
-      "Live 2D / 3D Character Design"
+      "UE5 Real-time Rendering",
+      "Motion Capture",
+      "Live 2D / 3D Character Design",
+      "Offline Event Production",
+      "IP Commerce"
     ],
     serviceItems: [
       {
-        title: "Offline events",
+        title: "Virtual production and CG/VFX",
         body:
-          "Support for meet-and-greets, concerts, and collaboration pop-ups, using video, motion, and voice interaction to connect virtual artists with real-world audiences."
+          "UE5 real-time rendering, MR, ICVFX, and live camera-direction workflows that connect virtual scenes, characters, and physical production."
       },
       {
-        title: "Online live streaming support",
+        title: "AI-enabled content pipeline",
         body:
-          "OBS, vMix, streaming, video, audio, and backend technical setup for stable, polished live content across platforms."
+          "Large-model workflows, private knowledge bases, planning support, data handling, project management, and multilingual adaptation to shorten delivery cycles."
       },
       {
-        title: "Merchandise design",
+        title: "Livestreams and 3D concerts",
         body:
-          "End-to-end original character merchandise support, from art direction and production to logistics channels and regular product refreshes."
+          "OBS, vMix, motion capture, camera direction, audio/video, and streaming support for polished livestreams, birthday lives, and virtual performances."
       },
       {
-        title: "Broker service",
+        title: "Offline event production",
         body:
-          "Virtual artist IP operation through licensing, brand collaborations, and commercialization strategies that connect talent with the market."
+          "Meet-and-greets, exhibitions, concerts, brand pop-ups, and large events powered by video, LED, audio, and interaction design."
       },
       {
-        title: "Live 2D / 3D character design",
+        title: "Virtual IP incubation",
         body:
-          "Character visuals and production-ready virtual identities for streaming, entertainment, brand endorsement, and digital IP development."
+          "Live 2D / 3D character design, personality development, content planning, and community operation for virtual artists and brand IP."
+      },
+      {
+        title: "Commercialization and brand collaboration",
+        body:
+          "Licensing, endorsements, co-branded goods, livestream commerce, and offline co-creation that translate IP influence into measurable business value."
+      }
+    ],
+    technologyItems: [
+      {
+        tag: "Production",
+        title: "Real-time virtual production pipeline",
+        body:
+          "Real-time rendering, optical motion capture, virtual scenes, and live direction systems for concerts, livestreams, music videos, and commercial content.",
+        image: "assets/img/tech-motion-capture.jpeg",
+        alt: "Motion capture production stage"
+      },
+      {
+        tag: "AI Workflow",
+        title: "AI-assisted content engineering",
+        body:
+          "Generative AI, databases, and production workflows support planning, scripts, translation, asset organization, and cross-cultural communication.",
+        image: "assets/img/tech-ai-content-engineering.png",
+        alt: "AI-assisted content production workflow interface"
+      },
+      {
+        tag: "IP Commerce",
+        title: "Virtual livestream commerce",
+        body:
+          "Controlled avatars, always-on streams, multidimensional product demos, and scalable campaign formats create more stable conversion channels for brands.",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        tag: "Future Events",
+        title: "Virtual esports and immersive events",
+        body:
+          "Motion capture, real-time data, AR landmarks, and virtual characters extend into water racing, motorsport, and global synchronized viewing.",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     talentItems: [
@@ -529,66 +679,80 @@ const dictionaries = {
     ],
     projectItems: [
       {
-        category: "Offline Event",
-        title: "HKSP 01",
-        body: "Stage and cross-character performance support for virtual artists.",
-        image: "assets/img/project-hksp.png",
-        alt: "HKSP 01 virtual artist projection stage"
-      },
-      {
         category: "Online Live",
         title: "Kobayashi Aisu 3D Birthday Live 2024",
-        body: "Real-time 3D online live production, camera direction, and streaming support.",
+        body: "A real-time rendered online concert with motion capture, camera direction, outfit changes, scene interaction, and stable streaming.",
         image: "assets/img/project-3d-live.png",
         alt: "Kobayashi Aisu 3D birthday live scene"
       },
       {
-        category: "Merchandise",
-        title: "Merchandise examples",
-        body: "Character merchandise, booth display, and sales support.",
+        category: "Brand Collab",
+        title: "Aisu offline events and brand collabs",
+        body: "Fan meetings, tea-shop collaborations, anime conventions, and merchandise turn online community energy into offline interaction and sales.",
         image: "assets/img/project-merch.png",
         alt: "Aisu merchandise booth display"
       },
       {
-        category: "Collaboration",
-        title: "Shenzhen Comic Festival",
-        body: "Offline event and exhibition interaction scenes.",
-        image: "assets/img/project-shenzhen.jpeg",
-        alt: "Shenzhen comic festival collaboration display"
+        category: "International IP",
+        title: "Hololive Party2Gather Hong Kong",
+        body: "Technical support, event execution, LED, and audio/video services for an international virtual artist collaboration with Hong Kong fans.",
+        image: "assets/img/news-party2gather.webp",
+        alt: "Hololive Party2Gather Hong Kong collaboration visual"
       },
       {
-        category: "Exhibition",
-        title: "Demon Slayer Hong Kong Exhibition",
-        body: "Exhibition collaboration and virtual artist on-site interaction.",
-        image: "assets/img/project-demon-slayer.png",
-        alt: "Demon Slayer Hong Kong exhibition with virtual artist"
+        category: "Convention",
+        title: "LNAF 2023 VTuber Zone",
+        body: "Technical collaboration for a major anime festival, supporting Japanese and local virtual artists on stage and improving audience participation.",
+        image: "assets/img/about-crowd.png",
+        alt: "Audience interacting with a virtual artist event"
       },
       {
-        category: "Goods",
-        title: "Aisu Birthday Hong Kong Set 2024",
-        body: "Visual presentation for a commemorative goods set.",
-        image: "assets/img/project-birthday-set.png",
-        alt: "Aisu birthday merchandise set"
+        category: "Virtual Production",
+        title: "Virtual production and CG/VFX",
+        body: "ICVFX, MR, and virtual scenes for music videos, commercial content, and training programs that make production and education more efficient.",
+        image: "assets/img/tech-virtual-production.png",
+        alt: "Virtual production behind the scenes"
+      },
+      {
+        category: "Event Production",
+        title: "Large event production",
+        body: "Summits, anime festivals, cultural banquets, anniversary events, and music festivals supported from stage visuals through live execution.",
+        image: "assets/img/project-large-event.jpeg",
+        alt: "Large anime festival group event"
+      },
+      {
+        category: "Commerce",
+        title: "Virtual livestream commerce concept",
+        body: "Virtual hosts, product demos, campaign mechanics, and real-time interaction create repeatable livestream commerce scenes.",
+        image: "assets/img/project-commerce.png",
+        alt: "Virtual livestream commerce concept"
+      },
+      {
+        category: "Future Scenario",
+        title: "Virtual esports event concept",
+        body: "Virtual characters, data visualization, and real-time rendering extend motorsport and water racing into synchronized online viewing.",
+        image: "assets/img/project-virtual-gp.png",
+        alt: "Virtual racing event concept"
       }
     ],
     newsItems: [
       {
-        tag: "Party2Gather",
-        title: "Hololive English official Hong Kong collaboration wrapped successfully",
+        tag: "Market",
+        title: "Virtual artist markets are moving into high growth",
         body:
-          "innoneer provided technical support for the event, including video, audio, and LED wall rental services for a stronger live audience experience."
+          "Virtual artist content is expanding from gaming, music, and chat streams into brand endorsements, livestream commerce, customer service, and virtual employees."
       },
       {
-        tag: "Announcement",
-        title: "Production service is the company’s core focus",
+        tag: "Greater Bay Area",
+        title: "The Greater Bay Area is a digital culture hub",
         body:
-          "innoneer will continue focusing on production services and aims to bring more breakthroughs in virtual artist and cross-media content."
+          "Hong Kong connects mainland China and global markets, pairing IP resources, creative talent, technical capability, and policy momentum for virtual-real content."
       },
       {
-        tag: "Community",
-        title: "Follow Instagram for the latest updates",
+        tag: "Co-create",
+        title: "Open collaboration models grow IP over time",
         body:
-          "Community news, collaborations, merchandise restocks, and live-stream updates continue on the official social channels."
+          "Collaboration can cover full IP technical enablement, virtual artist co-incubation, offline event co-creation, and long-term strategic partnerships."
       }
     ]
   }
@@ -640,6 +804,30 @@ function renderServices() {
         makeElement("h3", "", service.title),
         makeElement("p", "", service.body)
       );
+      return card;
+    })
+  );
+}
+
+function renderTechnology() {
+  const container = qs("[data-technology]");
+  container.replaceChildren(
+    ...dictionaries[state.lang].technologyItems.map((item) => {
+      const card = makeElement("article", "technology-card reveal");
+      const figure = makeElement("figure");
+      const img = new Image();
+      img.src = item.image;
+      img.alt = item.alt;
+      img.loading = "lazy";
+      figure.append(img);
+
+      const copy = makeElement("div", "technology-copy");
+      copy.append(
+        makeElement("span", "project-tag", item.tag),
+        makeElement("h3", "", item.title),
+        makeElement("p", "", item.body)
+      );
+      card.append(figure, copy);
       return card;
     })
   );
@@ -744,6 +932,7 @@ function setLanguage(lang) {
   setStaticText();
   renderGoals();
   renderServices();
+  renderTechnology();
   renderTalents();
   renderProjects();
   renderNews();
