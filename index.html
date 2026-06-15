@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="innoneer.TV is a Hong Kong virtual artist production and operation platform for VTuber IP, live streaming, offline events, and merchandise."
+    />
+    <title>innoneer.TV | Virtual Artist Management and Production</title>
+    <link rel="icon" href="assets/img/innoneer-logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="innoneer.TV home">
+        <img src="assets/img/innoneer-logo.png" alt="innoneer.TV" width="220" height="44" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only" data-i18n="a11y.menu">Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#talents" data-i18n="nav.talents">Talents</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#news" data-i18n="nav.news">News</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Language">
+          <button type="button" data-lang="zh-HK">HK</button>
+          <button type="button" data-lang="zh-CN">CN</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <a class="header-cta" href="mailto:info@innoneer.tv" data-i18n="nav.contact">Contact</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <figure class="hero-tile tile-large">
+            <img src="assets/img/hero-aisu-stage.jpg" alt="" />
+          </figure>
+          <figure class="hero-tile">
+            <img src="assets/img/hero-party-led.jpg" alt="" />
+          </figure>
+          <figure class="hero-tile">
+            <img src="assets/img/project-3d-live.png" alt="" />
+          </figure>
+          <figure class="hero-tile tile-wide">
+            <img src="assets/img/about-crowd.png" alt="" />
+          </figure>
+          <figure class="hero-tile tile-tall">
+            <img src="assets/img/talent-aisu.jpg" alt="" />
+          </figure>
+        </div>
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.kicker">Virtual Artist Management and Production</p>
+          <h1 id="hero-title" class="hero-logo-title">
+            <img src="assets/img/innoneer-logo.png" alt="innoneer.TV" width="960" height="193" />
+          </h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            One-stop virtual artist production and operation platform.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#talents" data-i18n="hero.primary">Meet the talents</a>
+            <a class="button button-secondary" href="#services" data-i18n="hero.secondary">Explore services</a>
+          </div>
+        </div>
+
+        <div class="statement-band">
+          <p data-i18n="hero.statement">Create immersive interactions where virtual worlds meet reality.</p>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track" data-marquee="top"></div>
+      </div>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="about.label">ABOUT</p>
+          <h2 id="about-title" data-i18n="about.title">About innoneer</h2>
+          <span aria-hidden="true">innoneer.TV</span>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p data-i18n="about.body1"></p>
+            <p data-i18n="about.body2"></p>
+          </div>
+          <figure class="about-visual reveal">
+            <img src="assets/img/about-crowd.png" alt="Audience watching a virtual artist event with glow sticks" />
+          </figure>
+        </div>
+        <div class="goal-strip reveal" data-goals></div>
+      </section>
+
+      <section class="services section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="services.label">SERVICES</p>
+          <h2 id="services-title" data-i18n="services.title">Our services</h2>
+          <span aria-hidden="true">Virtual Production</span>
+        </div>
+        <div class="service-grid" data-services></div>
+      </section>
+
+      <div class="marquee marquee-cyan" aria-hidden="true">
+        <div class="marquee-track" data-marquee="middle"></div>
+      </div>
+
+      <section class="talents section-shell" id="talents" aria-labelledby="talents-title">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="talents.label">TALENT</p>
+          <h2 id="talents-title" data-i18n="talents.title">Featured talents</h2>
+          <span aria-hidden="true">Hong Kong VTuber</span>
+        </div>
+        <div class="talent-list" data-talents></div>
+      </section>
+
+      <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="projects.label">REFERENCES</p>
+          <h2 id="projects-title" data-i18n="projects.title">Project references</h2>
+          <span aria-hidden="true">Production Works</span>
+        </div>
+        <div class="project-grid" data-projects></div>
+      </section>
+
+      <section class="news section-shell" id="news" aria-labelledby="news-title">
+        <div class="section-heading reveal">
+          <p class="section-label" data-i18n="news.label">NEWS</p>
+          <h2 id="news-title" data-i18n="news.title">Community updates</h2>
+          <span aria-hidden="true">Social Feed</span>
+        </div>
+        <div class="news-grid" data-news></div>
+        <a class="button button-primary news-more" href="https://www.instagram.com/innoneer.tv/" target="_blank" rel="noreferrer" data-i18n="news.more">
+          Follow Instagram
+        </a>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="section-label" data-i18n="contact.label">CONTACT</p>
+            <h2 id="contact-title" data-i18n="contact.title">Build the next virtual stage.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:info@innoneer.tv">info@innoneer.tv</a>
+            <a class="button button-secondary" href="https://discord.gg/innoneertv" target="_blank" rel="noreferrer">Discord</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/img/innoneer-logo.png" alt="innoneer.TV" width="180" height="36" />
+        <p data-i18n="footer.tagline">Create diverse experiences. Lead the industry forward.</p>
+      </div>
+      <nav aria-label="Social links">
+        <a href="https://www.youtube.com/@innoneertv" target="_blank" rel="noreferrer">YouTube</a>
+        <a href="https://www.facebook.com/innoneer.tv" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="https://www.instagram.com/innoneer.tv" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://twitter.com/@innoneerTv" target="_blank" rel="noreferrer">X</a>
+      </nav>
+      <p class="copyright">Copyright © 2026 Imagine Division Limited. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
